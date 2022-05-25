@@ -1,5 +1,26 @@
-/*  My Custom Style */
+h1{
+  font-family: 'Anton', sans-serif;
+  color: rgb(1, 50, 32);
+  animation: rotate 35s linear infinite;
+  display: flex;
+	min-height: 10vh;
+	justify-content: center;
+	align-items: center;
+}
+
+/*! gradient source: https://codepen.io/atakan/pen/nPOZZR!*/
+html{
+  height: 100%;
+}
 
 body{
-    background: rgb(178, 226, 223);
+  	background: 
+		linear-gradient(rgba(111, 115, 47, 5), rgba(179, 138, 88, 5));
+  background-repeat: no-repeat;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(-360deg);
+  }
 }
